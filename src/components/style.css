@@ -1,0 +1,460 @@
+/* Home.css */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: cursive; */
+    font-family: Georgia, serif;
+}
+
+
+.root{
+    /* background-color:rgb(219, 186, 186); */
+    height: 425vh;
+    
+}
+.main{
+    background-image: url("./img/Bsidekix-media-WgkA3CSFrjc-unsplash.jpg");
+    /* filter: brightness(0.7); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    /* position: relative; */
+}
+#com-h{
+    color: white; font-size: 90px; font-style: italic
+}
+#fel-s{
+    margin-left: 150px; color: white; font-size: 90px; font-style: italic;
+}
+#quam{
+    color: white; font-size: 25px; margin-left: 100px
+}
+.cnt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.btn{
+    padding: 16px;
+    width: 186px;
+    /* margin-left: 350px; */
+    margin-top: 60px;
+    background-color:  #e75757;
+}
+.btn:hover{
+    background-color: #ff3030f5;
+}
+
+
+.root1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin-top: 100px;
+}
+.r-items1{
+    height: 250vh;
+    width: 680px;
+    /* background-color: aqua; */
+    margin-left: 100px;
+}
+.r-items2{
+    height: 250vh;
+    width: 340px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#arch-img{
+    height: 33vw; margin-top: 20px;
+    
+}
+#up-date{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+#read-li{
+    text-decoration: none;
+    color: red;  
+    cursor: pointer;
+}
+.grid-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    gap: 40px;
+    margin-left: 20px;
+}
+.root3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+}
+.items{
+    height: 200px;
+    width: 300vw;  
+}
+.img-items{
+    height: 200px;
+    width: 300px;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;  
+    margin-top: 50px; 
+}
+.pages a{
+    border-radius: 10px;
+    margin-left:10px;
+    border: 2px solid #ff3030f5 ;
+    background-color: white; 
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+.pages a:hover{
+    background-color:#ff3030f5 ;
+    cursor: pointer;
+}
+
+.searchbar{
+    padding: 0%;
+    margin: 0%;
+    
+}
+#search-field{
+    padding: 20px;
+    width: 340px;
+    position: absolute;
+    background-size: 3vh ;
+    
+}
+#input-img{
+    position: relative;
+    width: 4vh;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.item6{
+    /* background-color: red; */
+    margin-top: 30px;
+    height: 110vh;
+    width: 340px;
+    border: 6px solid rgb(180, 176, 176);
+    border-radius: 3px;
+}
+#rec-po{
+    font-style: inherit; margin-top: 20px; margin-left: 20px;
+}
+.post-nm{
+    margin-left: 105px;
+    margin-top: -85px;
+}
+.posts{
+    margin-top: 15px;
+    height: 120px;
+    width: 320px;
+}
+.img-items2{
+    margin-left: 20px;
+     width: 12vh;
+      margin-top: 20px;
+}
+.conse-ve{
+    color: #ff3030f5;font-size: 20px   
+}
+.item7{
+    margin-top: 50px;
+    height: 70vh;
+    border: 6px solid rgb(180, 176, 176);
+    border-radius: 3px;
+      
+  }
+.btns{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-ed{
+    padding: 10px;
+    margin: 1px;
+    border: 3px solid black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-style: italic ;
+}
+.btn-ed:hover{
+    background-color: #ff3030f5;
+}
+
+
+
+
+
+
+
+
+
+/* Navbar.css */
+
+.logo-inv{
+    width: 180px; 
+    height: 35px;
+    margin-left: 60px;
+    /* margin-right: 580px;  */
+    margin-top: 40px;
+    /* position: absolute; */
+    
+}
+.navbox{
+    display: flex;
+    flex-direction: row;
+    /* background: #a6b5d88a; */ 
+}
+.header{
+    /* margin-left: 40px; */
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-link1{
+    display: flex;
+    flex-direction: row;
+    /* background: #a6b5d8ad; */
+    border-radius: 20px;
+    align-items: center;
+}
+.nav-link1 ul{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}   
+.nav-link1 ul li{
+    /* text-decoration: none; */
+    list-style: none;
+    text-decoration: none;
+   margin-left: 40px;
+   color: white;
+}
+#nav-li{
+    text-decoration: none;
+    color: white;
+    /* box-shadow: 20px; */
+}
+#nav-li:hover{
+    /* padding: 6px;
+    border-radius: 8px; */
+    /* background-color: rgb(110, 107, 107); */
+    color: rgb(212, 206, 206);
+    cursor: pointer;
+}
+
+
+/* Footer.css */
+
+footer{
+    background-color: black;
+    height: 50vh;
+    color: white;
+}
+.box{
+    display: grid;
+    grid-template-columns: 400px 350px 350px;
+    margin-top: 50px;
+    height: 23vw;
+    margin-left: 135px;
+    /* border: 2px solid white; */
+}
+.box1{
+    text-align: center;
+    margin-top: 80px;
+
+}
+.box2{
+    text-align: center;
+    margin-top: 80px;  
+ 
+}
+.box-ft{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    height: 50px;
+    background-size: cover;
+}
+.logo{
+    width: 6vh;
+    margin-top: 20px;
+    margin-top: -4px;
+}
+.box3{
+    text-align: center;
+    margin-top: 80px;
+}
+.navfoot{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 1px;
+    padding: 20px;
+}
+.navfoot ul{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+
+}
+.navfoot li{
+    margin-top: -15px;
+    margin-left: -5px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.navfoot ul li a{
+    color: white;
+    text-decoration: none;
+}
+#cop{
+    color: white; 
+    margin-right:350px;
+     font-size: larger;
+      margin-left: 20px;
+}
+
+
+
+/* About.css */
+.main-a{
+    background-image: url("./img/roberto-nickson-FqHU6aeVwf8-unsplash\ \(1\).jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.cent-a{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-style: italic;
+}
+#kn-mo{
+    font-size: 50px;
+}
+#ab-us{
+    font-size: 100px;
+}
+.ab-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.ab-items1{
+    /* background-color: aqua; */
+    height: 50vw;
+    /* width: 500px; */
+}
+.ab-items2{
+    /* background-color: aqua; */
+    height: 50vh;
+    width: 450px;
+    margin-top: 100px;
+    /* width: 500px; */
+}
+#work-s{
+    /* margin-bottom: 20px; */
+    font-size: 40px;
+}
+#bot-l{
+    color: orangered;
+}
+#tac{
+    margin-top: 20px;
+}
+#des-is{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#ab-png{
+    height: 40vw;
+}
+.ab-logo{
+    background-color: wheat;
+    padding: 40px;
+}
+#logo-ct{
+    margin-left: 100px;
+}
+
+
+
+/* Living.css */
+.root-l{
+    background-color: rgb(97, 88, 88);
+}
+.main-l{
+    background-image: url("./img/taciti.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.cent-l{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-style: italic;
+}
+#li-ro{
+font-size: 100px;
+}
+#ho-li{
+    /* font-size: 20px; */
+    margin-top: 30px;
+    font-display: none;
+}
+#ho-li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* kitchen.css */
+.main-k{
+    background-image: url("./img/pic26-free-img.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#arch-img-k{
+    height: 28vw;
+    margin-top: 20px;
+    
+}
+
+
+
+/* Outdoor.css */
+.main-o{
+    background-image: url("./img/pic04-free-img.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+
+
+  
